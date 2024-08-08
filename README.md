@@ -90,3 +90,22 @@ Variable names with more than one word can be difficult to read. There are sever
 1. **Camel Case:** Each word, except the first, starts with a capital letter. Example: `myVariableName`.
 2. **Pascal Case:** Each word starts with a capital letter. Example: `MyVariableName`.
 3. **Snake Case:** Each word is separated by an underscore character. Example: `my_variable_name`.
+
+### Unpack a Collection
+
+If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+
+### Global Variables
+
+Variables that are created outside of a function (as in all of the examples in the previous pages) are known as global variables.
+
+Global variables can be used by everyone, both inside of functions and outside.
+
+```bash
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+```
