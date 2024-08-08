@@ -56,3 +56,29 @@ Would you like me to explain or break down any part of this README.md code?
 ## 1. Indentation
 
 Indentation refers to the spaces at the beginning of a code line. Python uses indentation to indicate a block of code. The number of spaces is up to you as a programmer, the most common use is four, but it has to be at least one. You have to use the same number of spaces in the same block of code, otherwise Python will give you an error.
+
+## 2. Comments
+
+- Comments can be used to explain Python code.
+- Comments can be used to make the code more readable.
+- Comments can be used to prevent execution when testing code.
+- Python does not really have a syntax for multiline comments. To add a multiline comment you could insert a # for each line.
+- Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it.
+
+## 3. Single or Double Quotes
+
+- String variables can be declared either by using single or double quotes.
+
+## 4. Case-Sensitive
+
+- Variable names are case-sensitive.
+
+## 5. Variable Names
+
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
+
+- A variable name must start with a letter or the underscore character
+- A variable name cannot start with a number
+- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and \_ )
+- Variable names are case-sensitive (age, Age and AGE are three different variables)
+- A variable name cannot be any of the [Python keywords](https://www.w3schools.com/python/python_ref_keywords.asp).
