@@ -88,5 +88,7 @@ A variable can have a short name (like x and y) or a more descriptive name (age,
 Variable names with more than one word can be difficult to read. There are several techniques you can use to make them more readable:
 
 **1. Camel Case:** Each word, except the first, starts with a capital letter. Example: `myVariableName`.
+
 **2. Pascal Case:** Each word starts with a capital letter. Example: `MyVariableName`.
+
 **3. Snake Case:** Each word is separated by an underscore character. Example: `my_variable_name`.
