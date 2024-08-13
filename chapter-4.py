@@ -1,4 +1,4 @@
-#Python Variables
+# Python Variables
 ## Unpack a Collection
 
 fruits = ["apples", "banana", "cherry"]
