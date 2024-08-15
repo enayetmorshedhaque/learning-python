@@ -116,3 +116,24 @@ If you have a collection of values in a list, tuple etc. Python allows you to ex
 8. **None Type:** `NoneType`
 
 You can get the data type of any object by using the `type()` function
+
+### Python - Slicing Strings
+
+You can return a range of characters by using the slice syntax. Specify the start index and the end index, separated by a colon, to return a part of the string.
+
+```bash
+b = "Hello, World!"
+print(b[2:5])
+```
+
+### F-Strings
+
+F-String was introduced in Python 3.6, and is now the preferred way of formatting strings.
+
+To specify a string as an f-string, simply put an `f` in front of the string literal, and add curly brackets `{}` as placeholders for variables and other operations.
+
+```bash
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+```
