@@ -1,0 +1,10 @@
+number1 = input("Please type an integer and press enter: ")
+number2 = input("Please type another integer and press enter: ")
+
+print("Number1 + Number2 =", int(number1) + int(number2))
+print("Number1 - Number2 =", int(number1) - int(number2))
+print("Number1 * Number2 =", int(number1) * int(number2))
+print("Number1 / Number2 =", int(number1) / int(number2))
+print("Number1 % Number2 =", int(number1) % int(number2))
+print("Number1 // Number2 =", int(number1) // int(number2))
+print("Number1 ** Number2 =", int(number1) ** int(number2))
